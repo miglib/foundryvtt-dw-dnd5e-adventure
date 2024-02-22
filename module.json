@@ -1,0 +1,40 @@
+{
+  "id": "diskworld-dnd5e-adventure",
+  "title": "diskworld-dnd5e-adventure",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Пара приключений в сеттинге плоского мира\nДля корректной работы рекомендуется установить модуль Item Piles",
+  "packs": [
+    {
+      "name": "diskworld-adventure",
+      "label": "diskworld-adventure",
+      "path": "packs/diskworld-adventure",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure"
+}
