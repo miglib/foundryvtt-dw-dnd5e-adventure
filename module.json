@@ -36,5 +36,9 @@
       }
     }
   ],
-  "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure"
+  "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure",
+  "manifest": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/manifest.json",
+  "download": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.zip",
+  "readme": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/blob/master/README.md",
+  "bugs": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/issues"
 }
