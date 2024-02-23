@@ -37,9 +37,6 @@ jobs:
           echo "URL_REPO=$REPO" >> $GITHUB_OUTPUT
           echo "URL_MANIFEST=$MANIFEST" >> $GITHUB_OUTPUT
           echo "URL_MODULE=$MODULE" >> $GITHUB_OUTPUT
-          JSON=$(cat ./module.json)
-          echo "MODULE_JSON=${JSON//'%'/'%25'}" >> $GITHUB_OUTPUT
-
 
       # Substitute the Manifest and Download URLs in the module.json
       # for a FULL RELEASE
