@@ -31,7 +31,7 @@ jobs:
         run: |
           TAG=${GITHUB_REF/refs\/tags\//}
           REPO="https://github.com/${{github.repository}}"
-          MANIFEST="$REPO/releases/download/$TAG/module.json"
+          MANIFEST="$REPO/releases/latest/download/module.json"
           MODULE="$REPO/releases/download/$TAG/module.zip"
           echo "TAG_NAME=$TAG" >> $GITHUB_OUTPUT
           echo "URL_REPO=$REPO" >> $GITHUB_OUTPUT
