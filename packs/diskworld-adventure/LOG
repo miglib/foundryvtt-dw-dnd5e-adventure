@@ -1,15 +1,15 @@
-2024/02/25-22:05:27.507 4160 Recovering log #34
-2024/02/25-22:05:27.512 4160 Delete type=0 #34
-2024/02/25-22:05:27.512 4160 Delete type=3 #32
-2024/02/25-22:44:20.495 32fc Level-0 table #39: started
-2024/02/25-22:44:20.500 32fc Level-0 table #39: 141374 bytes OK
-2024/02/25-22:44:20.502 32fc Delete type=0 #37
-2024/02/25-22:44:20.502 32fc Manual compaction at level-0 from '!adventures!Lv84xriDPoNfBkow' @ 72057594037927935 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at (end)
-2024/02/25-22:44:20.502 32fc Manual compaction at level-1 from '!adventures!Lv84xriDPoNfBkow' @ 72057594037927935 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at '!adventures!Lv84xriDPoNfBkow' @ 9 : 1
-2024/02/25-22:44:20.502 32fc Compacting 1@1 + 1@2 files
-2024/02/25-22:44:20.506 32fc Generated table #40@1: 2 keys, 210325 bytes
-2024/02/25-22:44:20.506 32fc Compacted 1@1 + 1@2 files => 210325 bytes
-2024/02/25-22:44:20.507 32fc compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/25-22:44:20.507 32fc Delete type=2 #31
-2024/02/25-22:44:20.508 32fc Delete type=2 #39
-2024/02/25-22:44:20.508 32fc Manual compaction at level-1 from '!adventures!Lv84xriDPoNfBkow' @ 9 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at (end)
+2024/02/25-22:50:19.072 d7c Recovering log #38
+2024/02/25-22:50:19.075 d7c Delete type=0 #38
+2024/02/25-22:50:19.075 d7c Delete type=3 #36
+2024/02/25-23:34:36.115 32fc Level-0 table #44: started
+2024/02/25-23:34:36.121 32fc Level-0 table #44: 170715 bytes OK
+2024/02/25-23:34:36.124 32fc Delete type=0 #42
+2024/02/25-23:34:36.124 32fc Manual compaction at level-0 from '!adventures!Lv84xriDPoNfBkow' @ 72057594037927935 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at (end)
+2024/02/25-23:34:36.124 32fc Manual compaction at level-1 from '!adventures!Lv84xriDPoNfBkow' @ 72057594037927935 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at '!adventures!Lv84xriDPoNfBkow' @ 11 : 1
+2024/02/25-23:34:36.124 32fc Compacting 1@1 + 1@2 files
+2024/02/25-23:34:36.128 32fc Generated table #45@1: 2 keys, 211433 bytes
+2024/02/25-23:34:36.128 32fc Compacted 1@1 + 1@2 files => 211433 bytes
+2024/02/25-23:34:36.129 32fc compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/25-23:34:36.130 32fc Delete type=2 #40
+2024/02/25-23:34:36.130 32fc Delete type=2 #44
+2024/02/25-23:34:36.130 32fc Manual compaction at level-1 from '!adventures!Lv84xriDPoNfBkow' @ 11 : 1 .. '!adventures!sr7Ad7B3AAalivWR' @ 0 : 0; will stop at (end)
