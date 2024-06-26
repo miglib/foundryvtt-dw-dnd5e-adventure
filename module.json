@@ -4,38 +4,36 @@
     "version": "",
     "compatibility": {
         "minimum": "11",
-        "verified": "11"
-    },
-    "relationships": {
-        "recommends": [
-            {
-                "id": "item-piles",
-                "type": "module",
-                "compatibility": {}
-            }
-        ],
-        "requires": [
-            {
-                "id": "item-piles",
-                "type": "module",
-                "compatibility": {}
-            }
-        ]
-    },
-    "description": "Пара приключений в сеттинге плоского мира\nДля корректной работы рекомендуется установить модуль Item Piles",
-    "packs": [
+        "verified": "12"
+      },
+      "relationships": {
+        "recommends": [],
+        "requires": []
+      },
+      "description": "Пара приключений в сеттинге плоского мира",
+      "packs": [
         {
-            "name": "diskworld-adventure",
-            "label": "diskworld-adventure",
-            "path": "packs/diskworld-adventure",
-            "type": "Adventure",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
+          "name": "diskworld-adventure",
+          "label": "diskworld-adventure",
+          "path": "packs/diskworld-adventure",
+          "type": "Adventure",
+          "system": "dnd5e",
+          "banner": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
+          "ownership": {
+            "PLAYER": "LIMITED",
+            "TRUSTED": "OBSERVER",
+            "ASSISTANT": "OBSERVER",
+            "GAMEMASTER": "OWNER" 
+          }
         }
-    ],
+      ],
+      "media": [
+        {
+          "type": "setup",
+          "url": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
+          "thumbnail": "modules/diskworld-dnd5e-adventure/assets/scenes/AyvxryV6pciYNn53-thumb.webp"
+        }
+      ],
     "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure",
     "manifest": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.json",
     "download": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.zip",
