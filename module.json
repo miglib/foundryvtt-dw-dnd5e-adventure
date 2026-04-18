@@ -1,42 +1,38 @@
 {
-    "id": "diskworld-dnd5e-adventure",
-    "title": "diskworld-dnd5e-adventure",
-    "version": "",
-    "compatibility": {
-        "minimum": "11",
-        "verified": "12"
-      },
-      "relationships": {
-        "recommends": [],
-        "requires": []
-      },
-      "description": "Пара приключений в сеттинге плоского мира",
-      "packs": [
-        {
-          "name": "diskworld-adventure",
-          "label": "diskworld-adventure",
-          "path": "packs/diskworld-adventure",
-          "type": "Adventure",
-          "system": "dnd5e",
-          "banner": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
-          "ownership": {
-            "PLAYER": "LIMITED",
-            "TRUSTED": "OBSERVER",
-            "ASSISTANT": "OBSERVER",
-            "GAMEMASTER": "OWNER" 
-          }
+  "id": "diskworld-dnd5e-adventure",
+  "title": "diskworld-dnd5e-adventure",
+  "version": "3.0.0",
+  "compatibility": {
+      "minimum": "13",
+      "verified": "13"
+    },
+    "description": "Пара приключений в сеттинге плоского мира",
+    "packs": [
+      {
+        "name": "diskworld-adventure",
+        "label": "diskworld-adventure",
+        "path": "packs/diskworld-adventure",
+        "type": "Adventure",
+        "system": "dnd5e",
+        "banner": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
+        "ownership": {
+          "PLAYER": "LIMITED",
+          "TRUSTED": "OBSERVER",
+          "ASSISTANT": "OBSERVER",
+          "GAMEMASTER": "OWNER" 
         }
-      ],
-      "media": [
-        {
-          "type": "setup",
-          "url": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
-          "thumbnail": "modules/diskworld-dnd5e-adventure/assets/scenes/AyvxryV6pciYNn53-thumb.webp"
-        }
-      ],
-    "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure",
-    "manifest": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.json",
-    "download": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.zip",
-    "readme": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/blob/master/README.md",
-    "bugs": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/issues"
+      }
+    ],
+    "media": [
+      {
+        "type": "setup",
+        "url": "modules/diskworld-dnd5e-adventure/assets/arts/banner.webp",
+        "thumbnail": "modules/diskworld-dnd5e-adventure/assets/scenes/AyvxryV6pciYNn53-thumb.webp"
+      }
+    ],
+  "url": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure",
+  "manifest": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.json",
+  "download": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/releases/latest/download/module.zip",
+  "readme": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/blob/master/README.md",
+  "bugs": "https://github.com/miglib/foundryvtt-dw-dnd5e-adventure/issues"
 }
